@@ -1,0 +1,11 @@
+:root {
+
+    --red-mega: #E60526;
+    --blue-mega: #05A0E6;
+
+}
+
+@font-face {
+    font-family: 'K2D-semibold';
+    src: url("../fonts/K2D-SemiBold.ttf");
+}
