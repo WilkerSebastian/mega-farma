@@ -7,7 +7,6 @@ import helmet from "helmet"
 import cors from "cors"
 import morgan from "morgan"
 import { AppDataSource } from "../database/config/data-source"
-import { IncomingMessage, Server, ServerResponse } from "http"
 
 export default class Application {
 
@@ -63,6 +62,7 @@ export default class Application {
         this.server.use("/api", apirouter)
 
         this.server.use("/assets", express.static(resolve("../client/dist/assets")))
+        this.server.use("/favicon.ico", express.static(resolve("../client/dist/favicon.ico")))
 
     }
 

@@ -4,6 +4,7 @@
     "module": "ESNext",
     "moduleResolution": "node",
     "strict": true,
+    "outDir": "dist",
     "jsx": "preserve",
     "importHelpers": true,
     "esModuleInterop": true,
