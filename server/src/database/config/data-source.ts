@@ -8,6 +8,9 @@ export const AppDataSource = new DataSource({
     password: process.env.PG_PASSWORD,
     database: process.env.PG_DATABASE,
     synchronize: true,
+    ssl: {
+        rejectUnauthorized: false
+    },
     logging: process.env.NODE_ENV === "development" ? true : false,
     entities: [],
     subscribers: [],
