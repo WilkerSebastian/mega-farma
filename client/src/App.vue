@@ -2,7 +2,7 @@
   <div id="app">
     
     <Header/>
-    <main>
+    <main class="container-fluid main-container">
       <router-view/>
     </main>
     <Footer/>
@@ -21,3 +21,14 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+
+.main-container {
+
+  background: linear-gradient(180deg, var(--blue-mega) 0%, var(--white-mega) 13.9%);
+  min-height: 70vmin;
+
+}
+
+</style>
