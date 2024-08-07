@@ -21,7 +21,7 @@
 </template>
 <script lang="ts">
 import "@/assets/styles/colors.css"
-import Megafarmatitle from './Megafarmatitle.vue';
+import Megafarmatitle from '../../Megafarmatitle.vue';
 import Loginbutton from './Loginbutton.vue';
 
 export default {

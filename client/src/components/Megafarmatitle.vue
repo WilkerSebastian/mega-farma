@@ -1,6 +1,6 @@
 <template>
 
-    <div class="ms-5">
+    <div class="ms-lg-5">
         <h1 class="f-k2d">
             <color class="red-mega"> Mega </color> <br>
             <color class="blue-mega ms-3"> Farma </color>

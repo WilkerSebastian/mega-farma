@@ -2,6 +2,7 @@
 
     --red-mega: #E60526;
     --blue-mega: #05A0E6;
+    --blue-dark-mega: #2320B1;
     --white-mega: #F7F7F7;
 
 }
@@ -9,4 +10,9 @@
 @font-face {
     font-family: 'K2D-semibold';
     src: url("../fonts/K2D-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: 'type-icons';
+    src: url("../fonts/Type-Icons.ttf");
 }

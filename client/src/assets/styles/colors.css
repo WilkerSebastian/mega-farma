@@ -5,3 +5,11 @@
 .blue-mega {
     color: var(--blue-mega);
 }
+
+.white-mega {
+    color: var(--white-mega);
+}
+
+.bg-blue-mega {
+    background-color: var(--blue-mega);
+}

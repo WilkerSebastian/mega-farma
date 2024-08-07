@@ -1,0 +1,14 @@
+{
+    "social": [
+        "insta.png",
+        "facebook.png",
+        "twitter.png",
+        "youtube.png"
+    ],
+    "payments": [
+        "pix.png",
+        "mastercard.png",
+        "visa.png",
+        "elo.png"
+    ]
+}

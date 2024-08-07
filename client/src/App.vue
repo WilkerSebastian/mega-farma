@@ -13,11 +13,13 @@
 <script lang="ts">
 
 import Header from './components/layouts/header/Header.vue';
+import Footer from './components/layouts/footer/Footer.vue';
 
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
+    Footer
   }
 };
 </script>

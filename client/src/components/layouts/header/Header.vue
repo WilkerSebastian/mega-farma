@@ -1,6 +1,6 @@
 <template>
 
-    <header>
+    <header class="container-fluid">
 
         <Topbar/>
         <Navbar/>
