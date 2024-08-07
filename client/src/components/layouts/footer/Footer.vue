@@ -7,11 +7,15 @@
             <Megafarmatitle class="m-0 text-cetner"/>
             <Contactblock/>
 
-            <div class="d-flex mt-4 align-items-lg-center justify-content-evenly">
+            <div class="d-flex mt-4 align-items-lg-center flex-lg-row flex-column justify-content-evenly">
 
-                <Listext :title="duvidas.title" :topics="duvidas.topics"/>
-                <Listext :title="institucional.title" :topics="institucional.topics"/>
-                <div class="flex-column w-25">
+                <div class="d-flex">
+
+                    <Listext :title="duvidas.title" :topics="duvidas.topics"/>
+                    <Listext :title="institucional.title" :topics="institucional.topics" class="ms-3"/>
+
+                </div>
+                <div class="flex-lg-column flex-row mx-auto m-lg-0 w-images-block">
 
                     <h5 class="red-mega"> Redes Sociais </h5>
                     <ul class="d-flex justify-content-evenly">
@@ -102,6 +106,22 @@ export default {
 
     height: auto;
     width: 35%;
+
+}
+
+.w-images-block {
+
+    width: 80%;
+
+}
+
+@media (min-width: 992px) {
+
+    .w-images-block {
+
+        width: 25%;
+
+    }
 
 }
 
