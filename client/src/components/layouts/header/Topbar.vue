@@ -1,21 +1,27 @@
 <template>
 
-    <section class="d-flex">
-        <router-link to="/sus" class="link-offset-2 link-underline link-underline-opacity-0 clickable">
+    <section class="d-flex flex-lg-row flex-column">
+        <router-link to="/sus" class="link-offset-2 link-underline link-underline-opacity-0 clickable d-flex justify-content-center justify-content-lg-start">
             <Megafarmatitle/>
         </router-link>
-        <form class="h-25 w-25 m-auto input-group rounded-pill border" role="search">
-            <input class="form-control bg-trans border-0" id="search" name="search" type="search" placeholder="O que você está procurando?" aria-label="Search">
-            <span class="material-symbols-outlined border-0 input-group-text bg-trans" for="search">
-                search
-            </span>
-        </form>
-        <div class="d-flex m-auto clickable">
-            <Loginbutton />
+        <div class="d-flex flex-column-reverse align-items-center justify-content-evenly flex-lg-row w-100">
+
+            <form class="w-search input-group rounded-pill border mt-lg-0 mt-3" role="search">
+                <input class="form-control bg-trans border-0" id="search" name="search" type="search" placeholder="O que você está procurando?" aria-label="Search">
+                <span class="material-symbols-outlined border-0 input-group-text blue-mega bg-trans" for="search">
+                    search
+                </span>
+            </form>
+            <div class="d-flex w-login">
+                <div class="d-flex clickable">
+                    <Loginbutton />
+                </div>
+                <span class="material-symbols-outlined m-auto mx-lg-auto blue-mega fs-1 clickable">
+                    shopping_cart
+                </span>
+            </div>
+
         </div>
-        <span class="material-symbols-outlined m-auto blue-mega fs-1 clickable">
-            shopping_cart
-        </span>
     </section>
 
 </template>
@@ -47,4 +53,33 @@ export default {
     background-color: rgba(240, 248, 255, 0) !important;
 
 }
+
+.w-search {
+
+    width: 100%
+
+}
+
+.w-login {
+
+    width: 100%
+
+}
+
+@media (min-width: 992px) {
+
+    .w-search {
+    
+        width: 30%
+    
+    }
+
+    .w-login {
+
+        width: 50%
+
+    }
+
+}
+
 </style>

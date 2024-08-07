@@ -1,5 +1,5 @@
 <template>
-    <h1 class="f-k2d text-center pt-5"> Sem produtos cadastrados </h1>
+    <h1 class="f-k2d text-center pt-5 fs-1"> Sem produtos cadastrados </h1>
 </template>
 
 <script lang="ts">
