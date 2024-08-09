@@ -28,7 +28,6 @@ export default {
 
 .main-container {
 
-  background: linear-gradient(180deg, var(--blue-mega) 0%, var(--white-mega) 13.9%);
   min-height: 70vmin;
 
 }
