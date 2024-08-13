@@ -9,4 +9,10 @@ export default class PageController {
 
     }
 
+    public static async login(req:Request, res:Response) {
+
+        res.sendFile(resolve("../client/dist/index.html"))
+
+    }
+
 }
