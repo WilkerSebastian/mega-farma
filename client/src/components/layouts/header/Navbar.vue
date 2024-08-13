@@ -12,12 +12,12 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li v-for="categoria in categorias" :key="categoria.name" class="nav-item">
-                            <router-link class="nav-link active" to="{{ categoria.url }}"> {{ categoria.name }} </router-link>
+                            <RouterLink class="nav-link active" to="{{ categoria.url }}"> {{ categoria.name }} </RouterLink>
                         </li>
                     </ul>
                 </li>
                 <li v-for="categoria in categorias" :key="categoria.name" class="nav-item d-none d-lg-block">
-                    <router-link class="nav-link active" to="{{ categoria.url }}"> {{ categoria.name }} </router-link>
+                    <RouterLink class="nav-link active" to="{{ categoria.url }}"> {{ categoria.name }} </RouterLink>
                 </li>
             </ul>
         </div>
@@ -27,6 +27,7 @@
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
 import data_categorias from "@/assets/data/categorias.json";
+import { RouterLink } from "vue-router";
 
 type tcategoria = {
   name: string,

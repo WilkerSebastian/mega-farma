@@ -9,13 +9,3 @@ export default {
   name: 'Home'
 };
 </script>
-
-<style>
-
-.main-container {
-
-  background: linear-gradient(180deg, var(--blue-mega) 0%, var(--white-mega) 13.9%);
-
-}
-
-</style>

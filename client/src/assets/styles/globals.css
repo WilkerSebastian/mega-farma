@@ -16,3 +16,8 @@
     font-family: 'type-icons';
     src: url("../fonts/Type-Icons.ttf");
 }
+
+* {
+
+    font-family: K2D-semibold;
+}

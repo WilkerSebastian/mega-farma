@@ -10,6 +10,12 @@
     color: var(--white-mega);
 }
 
+.bg-red-mega {
+
+    background-color: var(--red-mega);
+
+}
+
 .bg-blue-mega {
     background-color: var(--blue-mega);
 }
